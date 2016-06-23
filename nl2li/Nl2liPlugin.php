@@ -24,6 +24,11 @@ class Nl2liPlugin extends BasePlugin
 		return 'http://antcooper.com';
 	}
 
+	public function getPluginUrl()
+	{
+		return 'https://github.com/antcooper/nl2li';
+	}
+	
 	public function addTwigExtension()
 	{
 		Craft::import('plugins.nl2li.twigextensions.Nl2liTwigExtension');
